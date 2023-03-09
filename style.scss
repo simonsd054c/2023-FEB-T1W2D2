@@ -1,0 +1,42 @@
+.scss-parent {
+    font-size: 24px;
+    color: red;
+
+    > .scss-child-1 {
+        color: yellow;
+
+        &:hover {
+            color: black;
+        }
+
+        >.scss-child-2 {
+            color: green;
+        }
+    }
+
+}
+
+// .scss-parent .scss-child-1 {
+//     color: yellow;
+// }
+
+// .scss-parent .scss-child-1:hover {
+//     color: black;
+// }
+
+// .scss-parent > .scss-child-1 > .scss-child-2 {
+//     color: green;
+// }
+
+
+.form {
+    color: red;
+
+    &-elements {
+        color: green;
+
+        &--disabled {
+            background-color: grey;
+        }
+    }
+}

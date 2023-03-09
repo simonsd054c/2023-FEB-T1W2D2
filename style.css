@@ -1,0 +1,23 @@
+.scss-parent {
+  font-size: 24px;
+  color: red;
+}
+.scss-parent > .scss-child-1 {
+  color: yellow;
+}
+.scss-parent > .scss-child-1:hover {
+  color: black;
+}
+.scss-parent > .scss-child-1 > .scss-child-2 {
+  color: green;
+}
+
+.form {
+  color: red;
+}
+.form-elements {
+  color: green;
+}
+.form-elements--disabled {
+  background-color: grey;
+}/*# sourceMappingURL=style.css.map */
